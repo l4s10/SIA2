@@ -4,6 +4,12 @@
 
 ?>
 Hola Usuario
+<?php
+    if($mensaje){
+        echo Html::tag('div',Html::encode($mensaje), ['class'=>'alert alert-danger']);
+    }
+?>
+
 
 <!-- Cargar formulario -->
 <?php $formulario=ActiveForm::begin();?>
