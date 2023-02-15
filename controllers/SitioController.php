@@ -1,6 +1,6 @@
 <?php
     namespace app\controllers;
-
+    // Usamos algunas funciones que ya vienen con yii
     use Yii;
     use yii\filters\AccessController;
     use yii\web\Controller;
